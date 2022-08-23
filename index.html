@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h1 class="primary-heading text-warning">world countries data</h1>
+                 <p class="para-1">currently, we have 250 countries data</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="countries">
+            <div class="container-fluid">
+                <div class="row row1 mb-3">
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <input type="text" name="search" id="searchBtn"placeholder="Search countries by name"class="form-control search">                
+                        </div>
+                    </div>
+                </div>
+                <div class="row row1">
+                    <ul class="searchBtns">
+                        <li class="searchBtnslist">
+                            <input type="button" value="Name" class="name btn btn-warning info" id="name">
+                        </li>
+                        <li class="searchBtnslist">
+                            <input type="button" value="Capital" class="capital btn btn-warning info" id="capital">
+                        </li>
+                        <li class="searchBtnslist">
+                            <input type="button" value="Population" class="population btn btn-warning info" id="population">
+                        </li>
+                        <li class="searchBtnslist">
+                            <a href="javascript:;" class="info"><i class="fas fa-chart-bar text-warning graph"></i></a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </section>
+        <section class="countries-data">
+            <div class="container-fluid">
+                <div class="row" id="countryData">
+                    <!-- <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="countries-img">
+                                    <div class="flag-img mb-3">
+                                        <img src="https://flagcdn.com/zm.svg" alt="countries-image" class="img-fluid">
+                                    </div>
+                                    <figcaption>
+                                        <div class="text-center">
+                                            <h1 class="name-heading text-warning">Zambia</h1>
+                                        </div>
+                                              <div class="mb-3">
+                                                <span class="heads">
+                                                        capital
+                                                    
+                                                </span>
+                                                     <span>
+                                                        Lusaka
+                                                     </span>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <span class="heads">
+                                                        languages
+                                                        
+                                                    </span>
+                                                         <span>
+                                                            English
+                                                         </span>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <span class="heads">
+                                                               population
+                                                            
+                                                        </span>
+                                                             <span>
+                                                                18383956
+                                                             </span>
+                                                        </div>
+                                             
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+    
+</body>
+</html>
